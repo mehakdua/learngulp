@@ -1,0 +1,1 @@
+angular.module('brainvizApp').run(['$templateCache', function($templateCache) {$templateCache.put('home.html','<div>My app</div>\ndfdf');}]);

@@ -1,0 +1,1 @@
+angular.module("brainvizApp",["ui.router"]).config(["$stateProvider","$urlRouterProvider",function(o,e){e.otherwise("/home"),o.state("home",{url:"/home",templateUrl:"home.html"}).state("about",{})}]),angular.module("brainvizApp").controller("HomeController",function(){console.log("inside Home")});
